@@ -27,7 +27,8 @@ body {
 }
 
 #content-left {
-    background-color: blueviolet;
+    background-color: #fff;
+    padding: 25px 50px 50px;
 }
 
 #content-right {
@@ -44,7 +45,7 @@ body {
     width: 100%;
 }
 
-/* header */
+/* Header */
 
 header {
     display: flex;
@@ -56,6 +57,8 @@ header h1,
 header nav {
     flex: 1;
 }
+
+/* Navigation */
 
 header nav {
     display: flex;
@@ -81,7 +84,17 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: darkgray;
     opacity: 1;
-
+    color: #fff;
     border-radius: 5px;
     padding: 5px;
+}
+
+/* Body content */
+
+#content-left p {
+    color: #f00;
+}
+
+#content-left span {
+    display: flex;
 }
