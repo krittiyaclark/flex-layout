@@ -43,6 +43,9 @@ body {
     background-position: center;
     background-color: yellow;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header */
@@ -97,4 +100,9 @@ header nav ul li a:hover {
 
 #content-left span {
     display: flex;
+}
+
+#background-img h2 {
+    color: #fff;
+    font-size: 5rem;
 }
