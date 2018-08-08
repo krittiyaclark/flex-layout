@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+#content-left,
+#content-right {
+    width: 50%;
+    height: 100%;
+}
+
+#content-left {
+    background-color: blueviolet;
+}
+
+#content-right {
+    display: flex;
+}
+
+#background-img {
+    background-image: url(images/collaborates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: yellow;
+    width: 100%;
+}
