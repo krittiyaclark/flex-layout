@@ -1,3 +1,5 @@
+/* Set body to fit the screen */
+
 * {
     box-sizing: border-box;
 }
@@ -15,6 +17,8 @@ body {
     flex-direction: row;
     flex: 1;
 }
+
+/* Set background to be two rows */
 
 #content-left,
 #content-right {
@@ -34,7 +38,50 @@ body {
     background-image: url(images/collaborates.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* Set background to fit the available space */
     background-position: center;
     background-color: yellow;
     width: 100%;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h1,
+header nav {
+    flex: 1;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0 15px 0 0;
+}
+
+header nav ul li a {
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    background-color: darkgray;
+    opacity: 1;
+
+    border-radius: 5px;
+    padding: 5px;
 }
